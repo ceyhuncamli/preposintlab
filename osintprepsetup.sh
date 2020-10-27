@@ -41,9 +41,11 @@ apt-get install docker.io -y
 systemctl enable docker --now
 docker pull mxrch/ghunt
 
-echo "Firefox eklentileri ayarlaniyor..."
+
 wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Debian-10-amd64.deb
 dpkg -i vera*
+
+echo "Firefox eklentileri ayarlaniyor..."
 
 wget https://addons.mozilla.org/firefox/downloads/file/3353640/link_gopher-2.0.1-fx.xpi
 sudo -u osint firefox link_gopher-2.0.1-fx.xpi

@@ -1,4 +1,4 @@
-#!/usr/bin/env bas
+#!/usr/bin/env bash
 
 echo "Yeni giris parolaniz..."
 passwd

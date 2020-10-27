@@ -37,11 +37,8 @@ apt-get install sqlitebrowser -y
 apt-get install dnsrecon -y
 apt-get install bleachbit -y
 apt-get install docker.io -y
-
 systemctl enable docker --now
 docker pull mxrch/ghunt
-
-
 wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Debian-10-amd64.deb
 dpkg -i vera*
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ "$EUID" -ne 0 ]
-  then echo "Bu scriptiroot yetkisiyle calistiriniz."
+  then echo "Bu scripti root yetkisiyle calistiriniz."
   exit
 fi
 

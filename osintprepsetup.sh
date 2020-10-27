@@ -49,37 +49,37 @@ wget https://addons.mozilla.org/firefox/downloads/file/3353640/link_gopher-2.0.1
 sudo -u osint firefox link_gopher-2.0.1-fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/788781/shodanio-0.3.2-an+fx.xpi
-sudo -u firefox shodanio-0.3.2-an+fx.xpi
+sudo -u osint firefox shodanio-0.3.2-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3657524/wappalyzer-6.3.10-fx.xpi
-sudo -u firefox wappalyzer-6.3.10-fx.xpi
+sudo -u osint firefox wappalyzer-6.3.10-fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3590348/hackbar-2.3.1-fx.xpi
-sudo -u firefox hackbar-2.3.1-fx.xpi
+sudo -u osint firefox hackbar-2.3.1-fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3551985/disable_webrtc-1.0.23-an+fx.xpi
-sudo -u firefox disable_webrtc-1.0.23-an+fx.xpi
+sudo -u osint firefox disable_webrtc-1.0.23-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3637661/ip_address_and_domain_information-4.0.6.0-fx.xpi
-sudo -u firefox  ip_address_and_domain_information-4.0.6.0-fx.xpi
+sudo -u osint firefox  ip_address_and_domain_information-4.0.6.0-fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3616824/foxyproxy_standard-7.5.1-an+fx.xpi
-sudo -u firefox foxyproxy_standard-7.5.1-an+fx.xpi
+sudo -u osint firefox foxyproxy_standard-7.5.1-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3641782/search_by_image-3.1.0-an+fx.xpi
-sudo -u firefox search_by_image-3.1.0-an+fx.xpi
+sudo -u osint firefox search_by_image-3.1.0-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3654840/user_agent_switcher_and_manager-0.4.4-an+fx.xpi
-sudo -u firefox user_agent_switcher_and_manager-0.4.4-an+fx.xpi
+sudo -u osint firefox user_agent_switcher_and_manager-0.4.4-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/993242/exif_viewer-3.7.5-an+fx.xpi
-sudo -u firefox exif_viewer-3.7.5-an+fx.xpi
+sudo -u osint firefox exif_viewer-3.7.5-an+fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3663762/jsonview-2.2.1-fx.xpi
-sudo -u firefox jsonview-2.2.1-fx.xpi
+sudo -u osint firefox jsonview-2.2.1-fx.xpi
 
 wget https://addons.mozilla.org/firefox/downloads/file/3643422/builtwith-2.2-an+fx.xpi
-sudo -u firefox builtwith-2.2-an+fx.xpi
+sudo -u osint firefox builtwith-2.2-an+fx.xpi
 
 echo "Temizlik islemleri..."
 apt-get autoremove -y

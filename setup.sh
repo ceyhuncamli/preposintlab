@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+if [ "$EUID" -ne 0 ]
+  then echo "Bu scriptiroot yetkisiyle calistiriniz."
+  exit
+fi
+
 echo "Yeni giris parolaniz..."
 passwd
-
-echo "Yetki yukseltiliyor..."
-sudo su
 
 echo "Date ve keyboard TR olarak ayarlaniyor..."
 timedatectl set-timezone Asia/Istanbul
